@@ -455,31 +455,31 @@ a:hover{
 /* Media query for mobile devices */
 @media (max-width: 578px) {
     .navbar-links {
-        display: none; /* Hide navbar links by default on mobile */
+        display: none; 
         flex-direction: column;
         width: 100%;
         position: absolute;
         top: 60px;
-        left: 0;
-        
+        left: 0;    
         padding: 20px 0;
+        background-color: #fefbfb;
     }
 
-    .navbar-links li {
-        margin: 10px 0;
+    .navbar-links li {    
         text-align: center;
     }
 
     .menu-icon {
-        display: block; /* Show menu icon on mobile */
+        display: block;
+        direction:none; 
     }
 
-    /* Show navbar links when menu icon is clicked */
+   
     #toggleMenu:checked ~ .navbar-links, .navbar-right{
         display: flex;
     }
     
-    /* Hide the actual checkbox */
+   
     #toggleMenu {
         display: none;
     }
