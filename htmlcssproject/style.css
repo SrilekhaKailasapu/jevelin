@@ -431,6 +431,9 @@ a:hover{
       color: orange;
     }
     @media (max-width: 558px){
+        body{
+            overflow-x: hidden;
+        }
         .icons {
             flex-direction:column; 
             justify-content: space-evenly; 
@@ -457,6 +460,13 @@ a:hover{
 {  body{
     overflow-x: hidden;
 }
+.navbar {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;}
     .navbar-links {
         display: none; 
         flex-direction: column;
