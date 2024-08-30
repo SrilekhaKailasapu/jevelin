@@ -453,7 +453,10 @@ a:hover{
     }
 
 /* Media query for mobile devices */
-@media (max-width: 576px) {
+@media (max-width: 576px) 
+{  body{
+    overflow-x: hidden;
+}
     .navbar-links {
         display: none; 
         flex-direction: column;
