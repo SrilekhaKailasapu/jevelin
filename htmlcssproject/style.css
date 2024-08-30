@@ -430,7 +430,7 @@ a:hover{
   .a:hover{
       color: orange;
     }
-    @media (max-width: 578px){
+    @media (max-width: 558px){
         .icons {
             flex-direction:column; 
             justify-content: space-evenly; 
@@ -453,7 +453,7 @@ a:hover{
     }
 
 /* Media query for mobile devices */
-@media (max-width: 578px) {
+@media (max-width: 558px) {
     .navbar-links {
         display: none; 
         flex-direction: column;
