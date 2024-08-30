@@ -453,7 +453,7 @@ a:hover{
     }
 
 /* Media query for mobile devices */
-@media (max-width: 558px) {
+@media (max-width: 576px) {
     .navbar-links {
         display: none; 
         flex-direction: column;
@@ -471,7 +471,7 @@ a:hover{
 
     .menu-icon {
         display: block;
-        margin-right:1.5em;
+        margin-right:2.5em;
     }
 
    
